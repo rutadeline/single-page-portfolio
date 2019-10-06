@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <meta charset='UTF-8'>
-        <meta name="Viewport" content="width=device-width, initial-scale">
+        <meta name="Viewport" content="width=device-width, initial-scale= 1.0">
         <meta http-equiv="X-UA-Compatible" content="ie-edge">
         <title>Adeline Uwibambe</title>
         <link rel="stylesheet" type="text/css" href="css/main.css">
@@ -12,10 +12,10 @@
             <div class="portfolio-hero">
                 <div class="portfolio-menu">
                     <ul class="nav-menu">
-                        <li class="menu-item"><a href="#">HOME</a></li>
-                        <li class="menu-item"><a href="#">ABOUT ME</a></li>
-                        <li class="menu-item"><a href="#">SKILLS</a></li>
-                        <li class="menu-item"><a href="#">CONTACT</a></li>
+                        <li class="menu-item"><a href="#"> Home </a></li>
+                        <li class="menu-item"><a href="#about me"> About Me </a></li>
+                        <li class="menu-item"><a href="#skills"> Skills </a></li>
+                        <li class="menu-item"><a href="#contact"> Contact </a></li>
 
                     </ul>
                     <div class="portfolio-profile">
@@ -30,29 +30,53 @@
         <main>
             <div id="about">
                 <h2>About Me</h2>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum, dolores! Quasi minus quos laboriosam exercitationem natus debitis maiores nam, consequuntur laborum odio voluptatibus similique possimus, omnis ea quibusdam! Eligendi, sit?</p>
-
+                <p>My name is Adeline Uwibambe. I am from Rwanda,but i have been living and studying in the Philippines since 2013. I graduated High School in May of 2018 at AUPA.
+                    currently i'm a second year Information Technology student at the Adventist University of the Philippines. Hoping to have my batchelor's degree by 2022 God willing </p>
             </div>
             <div id="skills">
-                <h2>Skills</h2>
-                <div class="skill-main-grid"></div>
-                <div class="skill-grid1"></div>
-                    <h3>lorem ipsum</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis vero magnam aut enim quas. Quasi ipsa tempore eum sint, alias repudiandae sunt</p>
+                <h3>Skills</h3>
+                <div class="skill-main-grid">
+                <div class="skill-grid1">
+                    <h3>Leadership</h3>
+                    <p>Throughout the years i've been tasked to lead in several diffent positions in different fields such as youth groups, it is challenging but with will i learnt that it's possible to do anything. I'm currently the president of the residence where i reside Dama de Noche and Cattleya.</p>
             </div>
-            <div class="skill-grid2"></div>
-                    <h3>lorem ipsum</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis vero magnam aut enim quas. Quasi ipsa tempore eum sint, alias repudiandae sunt</p>
+            <div class="skill-grid2">
+                    <h3>Communication</h3>
+                    <p>I am able to absorb share and understand information presented. Whether right or wrong i respect other people's point of view and are able to admit when mine is wrong which also makes me great at teamwork because i am willing to take work well with others for the greater good.</p>
             </div>
-            <div class="skill-grid3"></div>
-                    <h3>lorem ipsum</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis vero magnam aut enim quas. Quasi ipsa tempore eum sint, alias repudiandae sunt</p>
+            <div class="skill-grid3">
+                    <h3>Programming</h3>
+                    <p>I am neither an expert nor a professional programmer considering I only started learning last year but from what i learnt so far i can say i'm a pretty decent beginner programmer with a lot more to learn.</p>
             </div>
-            <div class="skill-grid4"></div>
-                    <h3>lorem ipsum</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis vero magnam aut enim quas. Quasi ipsa tempore eum sint, alias repudiandae sunt</p>
+            <div class="skill-grid4">
+                    <h3>Taking challenges</h3>
+                    <p>I'm somewhat a risk taker i love challenging myself to the best of my abilities whether in physical situations or even mental  .</p>
             </div>
+        </div>
+    </main>
+    <footer>
+            <form class="porfolio-form">
+                <h2>Send me a message.</h2>
+                <div class="form-row">
+                    <label class="form-label">Subject</label>
+                    <div class="form-input">
+                        <input id="mailSubject" class="form-input-text" type="text">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <label class="form-label">message:</label>
+                    <div class="form-input">
+                        <textarea id="mailMessage" class="form-input-textarea" type = "text"></textarea>
+                    </div>
+                </div>
+                <div class="form-submit">
+                    <a onmouseover="appendMailTo()" id="sendMail" href="mailto:uwibambe_adeline@yahoo.com" class="btn-submit">Submit</a>
+                </div>
+            </form>
+            <div class="footer">
+                Copyright &copy; <span id="getYear"></span>
             </div>
-        </main>
+        </footer>
+        <script src="js/main.js"></script>
     </body>
 </html>
