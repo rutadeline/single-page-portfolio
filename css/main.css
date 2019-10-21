@@ -10,7 +10,7 @@ body{
     right: 0;
 }
 .portfolio-hero{
-    background: url(../img/campus.jpg) no-repeat center center fixed;
+    background: url(../img/hero-web.jpg) no-repeat center center fixed;
     height: 100vh;
     background-size: cover;
     text-align: center;
